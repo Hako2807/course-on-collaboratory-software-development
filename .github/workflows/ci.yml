@@ -71,6 +71,7 @@ jobs:
           # TODO: replace with real test command
           echo "Running tests..."
           uv run pytest
+          echo "Test finished!"
 
   # Secondary job: auto-merge Dependabot PRs after CI passes
   dependabot:
